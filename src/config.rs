@@ -125,5 +125,5 @@ fn generate_ed25519_keypair() -> Ed25519Keypair {
 
 /// Returns the IP of the system's first non-loopback network interface or defaults to `127.0.0.1`.
 fn get_local_ip() -> IpAddr {
-    "127.0.0.1".parse().unwrap()
+    unimplemented!()
 }
